@@ -1,3 +1,5 @@
+package info.kernelhcy.leetcode;
+
 /**
  * Created by hcy on 06/10/2016.
  */

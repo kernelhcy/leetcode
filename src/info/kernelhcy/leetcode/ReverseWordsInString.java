@@ -1,3 +1,5 @@
+package info.kernelhcy.leetcode;
+
 /**
  * User: hcy
  * Date: 10/14/14
