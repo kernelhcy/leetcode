@@ -51,5 +51,36 @@ public class P30
             return res;
         }
 
+
+        public int divide(int dividend, int divisor)
+        {
+            boolean neg = false;
+            if (dividend < 0 && divisor > 0) neg = true;
+            if (dividend > 0 && divisor < 0) neg = true;
+
+            if (dividend == -2147483648 && divisor == 1) {
+                return dividend;
+            }
+
+            if (dividend == -2147483648 && divisor == -1) {
+                return 2147483647;
+            }
+
+            long re = 0;
+            long dd = Math.abs((long) dividend);
+            long dr = Math.abs((long) divisor);
+            long[] map = new long[32];
+            for (int i = 0; i < 32; ++i) {
+                map[i] = dr << i;
+            }
+            for (int i = 31; i >= 0; --i) {
+                if (dd > map[i]) {
+                    dd -= map[i];
+                    re += (1 << i);
+                }
+            }
+
+            return (int)(neg ? -re : re);
+        }
     }
 }
