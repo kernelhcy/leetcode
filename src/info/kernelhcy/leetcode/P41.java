@@ -4,9 +4,9 @@ public class P41
 {
     public static void main(String[] args)
     {
-//        System.out.println(new Solution().firstMissingPositive(new int[]{3,4,-1,1}));
-//        System.out.println(new Solution().firstMissingPositive(new int[]{1,2,0}));
-//        System.out.println(new Solution().firstMissingPositive(new int[]{1}));
+        System.out.println(new Solution().firstMissingPositive(new int[]{3,4,-1,1}));
+        System.out.println(new Solution().firstMissingPositive(new int[]{1,2,0}));
+        System.out.println(new Solution().firstMissingPositive(new int[]{1}));
         System.out.println(new Solution().firstMissingPositive(new int[]{2, 1}));
     }
 
