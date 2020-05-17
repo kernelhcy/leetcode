@@ -18,33 +18,33 @@ public class P44
 
     public static class Solution
     {
-//        public boolean isMatch(String s, String p)
-//        {
-//            byte[] sa = s.getBytes();
-//            byte[] pa = p.getBytes();
-//
-//            int si = 0, lastSi = -1;
-//            int pi = 0, lastPi = -1;
-//            while (si < sa.length) {
-//                if (pi < pa.length && pa[pi] == '*') {
-//                    ++pi;
-//                    lastPi = pi;
-//                    lastSi = si;
-//                } else if (pi < pa.length && (pa[pi] == '?' || pa[pi] == sa[si])) {
-//                    ++si;
-//                    ++pi;
-//                } else if (lastSi >= 0){
-//                    ++lastSi;
-//                    si = lastSi;
-//                    pi = lastPi;
-//                } else {
-//                    return false;
-//                }
-//            }
-//
-//            while (pi < pa.length && pa[pi] == '*') ++pi;
-//            return pi >= pa.length;
-//        }
+        public boolean isMatch2(String s, String p)
+        {
+            byte[] sa = s.getBytes();
+            byte[] pa = p.getBytes();
+
+            int si = 0, lastSi = -1;
+            int pi = 0, lastPi = -1;
+            while (si < sa.length) {
+                if (pi < pa.length && pa[pi] == '*') {
+                    ++pi;
+                    lastPi = pi;
+                    lastSi = si;
+                } else if (pi < pa.length && (pa[pi] == '?' || pa[pi] == sa[si])) {
+                    ++si;
+                    ++pi;
+                } else if (lastSi >= 0){
+                    ++lastSi;
+                    si = lastSi;
+                    pi = lastPi;
+                } else {
+                    return false;
+                }
+            }
+
+            while (pi < pa.length && pa[pi] == '*') ++pi;
+            return pi >= pa.length;
+        }
 
         public boolean isMatch(String s, String p)
         {
