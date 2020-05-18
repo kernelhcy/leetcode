@@ -6,9 +6,11 @@ public class P45
 {
     public static void main(String[] args)
     {
-//        System.out.println(new Solution().jump(new int[]{2,3,1,1,4}));
-//        System.out.println(new Solution().jump(new int[]{2,3,0,1,4}));
-        System.out.println(new Solution().jump(new int[]{0}));
+        System.out.println(new Solution().jump2(new int[]{1, 2, 3}));
+        System.out.println(new Solution().jump2(new int[]{2,3,1,1,4}));
+        System.out.println(new Solution().jump2(new int[]{2,3,0,1,4}));
+        System.out.println(new Solution().jump2(new int[]{0}));
+        System.out.println(new Solution().jump2(new int[]{1, 2}));
     }
 
     public static class Solution
@@ -51,6 +53,32 @@ public class P45
                 if (map[0][i] >= 0 && map[0][i] < re) re = map[0][i];
             }
             return re;
+        }
+
+        public int jump2(int[] nums)
+        {
+            if (nums.length <= 1) return 0;
+
+            int step = 1;
+            int index = 0;
+            while (true) {
+                if (index + nums[index] >= nums.length - 1) return step;
+                int ma = -1, mi = -1;
+                for (int i = 1; i <= nums[index]; ++i) {
+                    if (index + i >= nums.length - 1) {
+                        return step + 1;
+                    }
+                    if (ma < (index + i + nums[index + i])) {
+                        ma = (index + i + nums[index + i]);
+                        mi = index + i;
+                    }
+                }
+                if (ma >= nums.length - 1) {
+                    return step + 1;
+                }
+                ++step;
+                index = mi;
+            }
         }
     }
 }
