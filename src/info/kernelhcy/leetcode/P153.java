@@ -5,7 +5,7 @@ package info.kernelhcy.leetcode;
  * Date: 10/19/14
  * Time: 4:45 PM
  */
-public class FindMinimuminRotatedSortedArray
+public class P153
 {
     /*
      * 0 1 2 3 4 5 6 7
