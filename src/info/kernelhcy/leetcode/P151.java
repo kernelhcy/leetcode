@@ -5,7 +5,7 @@ package info.kernelhcy.leetcode;
  * Date: 10/14/14
  * Time: 10:48 PM
  */
-public class ReverseWordsInString
+public class P151
 {
     public String reverseWords(String s)
     {

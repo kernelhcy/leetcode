@@ -7,7 +7,7 @@ import java.util.Stack;
  * Date: 10/19/14
  * Time: 5:41 PM
  */
-public class EvaluateReversePolishNotation
+public class P150
 {
     public int evalRPN(String[] tokens)
     {
