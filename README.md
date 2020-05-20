@@ -10,6 +10,7 @@ LeetCode problems' solutions
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)| [P61.java](./src/info/kernelhcy/leetcode/P61.java)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)| [P62.java](./src/info/kernelhcy/leetcode/P62.java)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [P63.java](./src/info/kernelhcy/leetcode/P63.java)|Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [P64.java](./src/info/kernelhcy/leetcode/P64.java)|Medium|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [P151.java](./src/info/kernelhcy/leetcode/P151.java)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [P153.java](./src/info/kernelhcy/leetcode/P153.java)|Medium|
