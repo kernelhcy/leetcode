@@ -21,7 +21,7 @@ public class P151
 
     public static void main(String[] args)
     {
-        String s = new ReverseWordsInString().reverseWords(" a");
+        String s = new P151().reverseWords(" a");
         System.out.println("#" + s + "#");
     }
 }

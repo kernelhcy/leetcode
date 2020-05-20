@@ -33,7 +33,7 @@ public class P153
 
     public static void main(String[] argc)
     {
-        FindMinimuminRotatedSortedArray test = new FindMinimuminRotatedSortedArray();
+        P153 test = new P153();
         System.out.println(test.findMin(new int[]{0, 1, 2, 3, 4, 5, 6, 7}));
         System.out.println(test.findMin(new int[]{1, 2, 3, 4, 5, 6, 7, 0}));
         System.out.println(test.findMin(new int[]{2, 3, 4, 5, 6, 7, 0, 1}));

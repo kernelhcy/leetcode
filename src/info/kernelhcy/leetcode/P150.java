@@ -39,7 +39,7 @@ public class P150
 
     public static void main(String[] argc)
     {
-        EvaluateReversePolishNotation test = new EvaluateReversePolishNotation();
+        P150 test = new P150();
         System.out.println(test.evalRPN(new String[]{"2", "1", "+", "3", "*"}));
         System.out.println(test.evalRPN(new String[]{"4", "13", "5", "/", "+"}));
     }
