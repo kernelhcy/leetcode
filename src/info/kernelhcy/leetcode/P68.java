@@ -39,6 +39,33 @@ public class P68
         System.out.println(res.stream().map(s -> "\"" + s + "\"")
                 .collect(Collectors.joining(",\n", "[\n", "\n]\n")));
 
+        System.out.println(mySqrt(0));
+        System.out.println(mySqrt(1));
+        System.out.println(mySqrt(2));
+        System.out.println(mySqrt(3));
+        System.out.println(mySqrt(4));
+        System.out.println(mySqrt(8));
+        System.out.println(mySqrt(2147395599));
+    }
+
+
+    public static int mySqrt(int x)
+    {
+        if (x == 0) return 0;
+        if (x == 1) return 1;
+
+        long start = 0, end = x;
+        long mid = 0;
+        while (start < end) {
+            if (start + 1 == end) return (int)start;
+            mid = (start + end) / 2;
+            if (mid * mid > x) {
+                end = mid;
+            } else {
+                start = mid;
+            }
+        }
+        return (int)mid;
     }
 
     public static class Solution
