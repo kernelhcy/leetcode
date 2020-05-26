@@ -18,6 +18,7 @@ LeetCode problems' solutions
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [P151.java](./src/info/kernelhcy/leetcode/P151.java)|Medium|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [P152.java](./src/info/kernelhcy/leetcode/P152.java)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [P153.java](./src/info/kernelhcy/leetcode/P153.java)|Medium|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [P300.java](./src/info/kernelhcy/leetcode/P300.java)|Medium|
 |1143|[](https://leetcode.com/problems/longest-common-subsequence/)| [P1143.java](./src/info/kernelhcy/leetcode/P1143.java)|Medium|
