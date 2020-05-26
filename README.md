@@ -15,6 +15,7 @@ LeetCode problems' solutions
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [P68.java](./src/info/kernelhcy/leetcode/P68.java)|Hard|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [P71.java](./src/info/kernelhcy/leetcode/P71.java)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [P72.java](./src/info/kernelhcy/leetcode/P72.java)|Hard|
+|120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [P151.java](./src/info/kernelhcy/leetcode/P151.java)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [P153.java](./src/info/kernelhcy/leetcode/P153.java)|Medium|
