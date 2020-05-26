@@ -21,4 +21,5 @@ LeetCode problems' solutions
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [P152.java](./src/info/kernelhcy/leetcode/P152.java)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [P153.java](./src/info/kernelhcy/leetcode/P153.java)|Medium|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [P300.java](./src/info/kernelhcy/leetcode/P300.java)|Medium|
+|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)| [P354.java](./src/info/kernelhcy/leetcode/P354.java)|Medium|
 |1143|[](https://leetcode.com/problems/longest-common-subsequence/)| [P1143.java](./src/info/kernelhcy/leetcode/P1143.java)|Medium|
