@@ -15,6 +15,7 @@ LeetCode problems' solutions
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [P68.java](./src/info/kernelhcy/leetcode/P68.java)|Hard|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [P71.java](./src/info/kernelhcy/leetcode/P71.java)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [P72.java](./src/info/kernelhcy/leetcode/P72.java)|Hard|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [P74.java](./src/info/kernelhcy/leetcode/P74.java)|Medium|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
