@@ -15,6 +15,31 @@ public class P78
         public List<List<Integer>> subsets(int[] nums)
         {
             List<List<Integer>> r = new LinkedList<>();
+            if (nums.length <= 0) return r;
+
+            int n = (int) Math.pow(2, nums.length);
+            for (int i = 0; i < n; ++i) {
+                r.add(toSet(nums, i));
+            }
+            return r;
+        }
+
+        private List<Integer> toSet(int[] nums, int n)
+        {
+            List<Integer> set = new LinkedList<>();
+            for (int num : nums) {
+                if (n == 0) break;
+                if ((n & 1) == 1) {
+                    set.add(num);
+                }
+                n >>= 1;
+            }
+            return set;
+        }
+
+        public List<List<Integer>> subsets2(int[] nums)
+        {
+            List<List<Integer>> r = new LinkedList<>();
             r.add(new LinkedList<>());
             if (nums.length <= 0) return r;
 
