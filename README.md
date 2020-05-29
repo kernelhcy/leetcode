@@ -18,6 +18,7 @@ LeetCode problems' solutions
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [P74.java](./src/info/kernelhcy/leetcode/P74.java)|Medium|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)| [P75.java](./src/info/kernelhcy/leetcode/P75.java)|Medium|
 |77|[Combinations](https://leetcode.com/problems/combinations/)| [P77.java](./src/info/kernelhcy/leetcode/P77.java)|Medium|
+|78|[Subsets](https://leetcode.com/problems/subsets/)| [P78.java](./src/info/kernelhcy/leetcode/P78.java)|Medium|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
