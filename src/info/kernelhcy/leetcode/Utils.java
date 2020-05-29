@@ -13,4 +13,11 @@ public class Utils
         }
         System.out.println("]");
     }
+
+    public static void printArray(int[] a)
+    {
+        System.out.print("[");
+        for (int n : a) System.out.print(n + ",");
+        System.out.println("]");
+    }
 }
