@@ -22,6 +22,7 @@ LeetCode problems' solutions
 |79|[Word Search](https://leetcode.com/problems/word-search/)| [P79.java](./src/info/kernelhcy/leetcode/P79.java)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [P80.java](./src/info/kernelhcy/leetcode/P80.java)|Medium|
 |83|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [P82.java](./src/info/kernelhcy/leetcode/P82.java)|Medium|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [P84.java](./src/info/kernelhcy/leetcode/P84.java)|Hard|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
