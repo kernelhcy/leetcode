@@ -20,6 +20,16 @@ public class ListNode
         this.next = next;
     }
 
+    ListNode(int[] values)
+    {
+        this.val = values[0];
+        ListNode next = this;
+        for (int i = 1; i < values.length; ++i) {
+            next.next = new ListNode(values[i]);
+            next = next.next;
+        }
+    }
+
     public String toString()
     {
         StringBuilder sb = new StringBuilder("[");
