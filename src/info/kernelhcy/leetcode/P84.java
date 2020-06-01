@@ -16,15 +16,14 @@ public class P84
         {
             if (heights.length <= 0) return 0;
             if (heights.length <= 1) return heights[0];
-            int[] dp = new int[heights.length + 1];
 
             int max = 0;
+            int min;
             for (int i = 1; i <= heights.length; ++i) {
-                dp[i - 1] = Integer.MAX_VALUE;
-                dp[i] = heights[i - 1];
+                min = Integer.MAX_VALUE;
                 for (int j = i; j <= heights.length; ++j) {
-                    dp[j] = Math.min(heights[j - 1], dp[j -1]);
-                    max = Math.max(max, dp[j] * (j - i + 1));
+                    min = Math.min(heights[j - 1], min);
+                    max = Math.max(max, min * (j - i + 1));
                 }
             }
             return max;
