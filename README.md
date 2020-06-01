@@ -37,4 +37,5 @@ LeetCode problems' solutions
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [P1143.java](./src/info/kernelhcy/leetcode/P1143.java)|Medium|
 
 ========
+
 [labuladong的算法小抄](https://labuladong.gitbook.io/algo/)
