@@ -33,6 +33,24 @@ public class P91
             return dp[n];
         }
 
+        public int numDecodings2(String s)
+        {
+            int n = s.length();
+
+            if(n == 0 || s.charAt(0) == '0') {
+                return 0;
+            }
+            int dp0 = 1;
+            int dp1 = 1;
+            for(int i = 2; i <= n; i++) {
+                int dpi = 0;
+                if(s.charAt(i-1) > '0') dpi = dp1;
+                if(s.charAt(i-2) == '1' || (s.charAt(i - 2) == '2' && s.charAt(i - 1) - '0' < 7)) dpi += dp0;
+                dp0 = dp1;
+                dp1 = dpi;
+            }
+            return dp1;
+        }
 
     }
 }
