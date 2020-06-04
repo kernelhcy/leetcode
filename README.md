@@ -23,6 +23,7 @@
 |83|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [P82.java](./src/info/kernelhcy/leetcode/P82.java)|Medium|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [P84.java](./src/info/kernelhcy/leetcode/P84.java)|Hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [P85.java](./src/info/kernelhcy/leetcode/P85.java)|Hard|
+|86|[Partition List](https://leetcode.com/problems/partition-list/)| [P86.java](./src/info/kernelhcy/leetcode/P86.java)|Media|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
