@@ -92,11 +92,11 @@ public class P97
             if (idx3 >= s3.length() && idx2 >= s2.length() && idx1 >= s1.length()) return true;
             if (idx3 >= s3.length()) return false;
 
-            if (idx1 >= s1.length()) return s2.equals(s3);
-            if (idx2 >= s2.length()) return s1.equals(s3);
+            if (idx1 >= s1.length()) return s2.substring(idx2).equals(s3.substring(idx3));
+            if (idx2 >= s2.length()) return s1.substring(idx1).equals(s3.substring(idx3));
 
-//            String key = s1 + "|" + s2 + "|" + s3;
-//            if (memo.containsKey(key)) return memo.get(key);
+            String key = s1 + "|" + idx1 + "|" + s2 + "|" + idx2 + "|" + s3 + "|" + idx3;
+            if (memo.containsKey(key)) return memo.get(key);
 
             char c1 = s1.charAt(idx1);
             char c2 = s2.charAt(idx2);
@@ -113,7 +113,7 @@ public class P97
             }
 
             boolean re = b1 || b2;
-//            memo.put(key, re);
+            memo.put(key, re);
             return re;
         }
     }
