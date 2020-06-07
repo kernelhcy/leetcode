@@ -1,5 +1,6 @@
 package info.kernelhcy.leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class P98
         public boolean isValidBST2(TreeNode root)
         {
             if (root == null) return true;
-            List<Integer> nums = new LinkedList<>();
+            List<Integer> nums = new ArrayList<>(32);
             traverse(root, nums);
             for (int i = 1; i < nums.size(); ++i) {
                 if (nums.get(i - 1).equals(nums.get(i))) return false;
