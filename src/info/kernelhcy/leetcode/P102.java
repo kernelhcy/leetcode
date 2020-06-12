@@ -3,6 +3,7 @@ package info.kernelhcy.leetcode;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 
 public class P102
 {
@@ -40,6 +41,45 @@ public class P102
 
             result.add(nums);
             levelOrder(ns, result);
+        }
+    }
+
+    public static class SolutionP103
+    {
+        public List<List<Integer>> zigzagLevelOrder(TreeNode root)
+        {
+            List<List<Integer>> result = new LinkedList<>();
+            if (root == null) return result;
+
+            Stack<TreeNode> ns = new Stack<>();
+            ns.add(root);
+
+            levelOrder(ns, result, 1);
+            return result;
+        }
+
+        private void levelOrder(Stack<TreeNode> nodes, List<List<Integer>> result, int direction)
+        {
+            if (nodes.isEmpty()) return;
+
+            Stack<TreeNode> ns = new Stack<>();
+            List<Integer> nums = new LinkedList<>();
+            while (!nodes.isEmpty()) {
+                TreeNode node = nodes.pop();
+                if (node == null) continue;
+
+                nums.add(node.val);
+                if ((direction & 1) == 1) {
+                    ns.push(node.left);
+                    ns.push(node.right);
+                } else {
+                    ns.push(node.right);
+                    ns.push(node.left);
+                }
+            }
+
+            if (nums.size() > 0) result.add(nums);
+            levelOrder(ns, result, direction + 1);
         }
     }
 }
