@@ -33,6 +33,7 @@
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [P96.java](./src/info/kernelhcy/leetcode/P96.java)|Media|
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)| [P97.java](./src/info/kernelhcy/leetcode/P97.java)|Media|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [P98.java](./src/info/kernelhcy/leetcode/P98.java)|Media|
+|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)| [P99.java](./src/info/kernelhcy/leetcode/P99.java)|Hard|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| [P120.java](./src/info/kernelhcy/leetcode/P120.java)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
