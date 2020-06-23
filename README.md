@@ -43,6 +43,7 @@
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [P123.java](./src/info/kernelhcy/leetcode/P123.java)|Hard|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)| [P126.java](./src/info/kernelhcy/leetcode/P126.java)|Hard|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [P131.java](./src/info/kernelhcy/leetcode/P131.java)|Media|
+|132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [P132.java](./src/info/kernelhcy/leetcode/P132.java)|Hard|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [P151.java](./src/info/kernelhcy/leetcode/P151.java)|Medium|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [P152.java](./src/info/kernelhcy/leetcode/P152.java)|Medium|
