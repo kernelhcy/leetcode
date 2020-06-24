@@ -5,12 +5,21 @@ public class ListNode
     int val;
     ListNode next;
 
+    int key;
+    ListNode pre;
+
     ListNode()
     {
     }
 
     ListNode(int val)
     {
+        this.val = val;
+    }
+
+    ListNode(int key, int val)
+    {
+        this.key = key;
         this.val = val;
     }
 
