@@ -46,6 +46,7 @@
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [P132.java](./src/info/kernelhcy/leetcode/P132.java)|Hard|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/)| [P140.java](./src/info/kernelhcy/leetcode/P140.java)|Hard|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)| [P146.java](./src/info/kernelhcy/leetcode/P146.java)|Media|
+|148|[Sort List](https://leetcode.com/problems/sort-list/)| [P148.java](./src/info/kernelhcy/leetcode/P148.java)|Media|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [P150.java](./src/info/kernelhcy/leetcode/P150.java)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [P151.java](./src/info/kernelhcy/leetcode/P151.java)|Medium|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [P152.java](./src/info/kernelhcy/leetcode/P152.java)|Medium|
